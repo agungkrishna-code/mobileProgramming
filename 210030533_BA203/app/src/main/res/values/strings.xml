@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">210030533_BA203</string>
+    <string-array name="siswa">
+        <item>siswa1</item>
+        <item>siswa2</item>
+        <item>siswa3</item>
+        <item>siswa4</item>
+        <item>siswa5</item>
+        <item>siswa6</item>
+    </string-array>
+    <string-array name="masalah">Pilih Jenis Masalah
+        <item>sakit</item>
+        <item>bolos</item>
+        <item>berkelahi</item>
+    </string-array>
+</resources>
