@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pertemuan_7</string>
+    <string-array name="Foto">
+        <item>luffi</item>
+        <item>inc</item>
+        <item>mickey</item>
+        <item>monster</item>
+        <item>naruto</item>
+        <item>pikachu</item>
+        <item>shizuka</item>
+    </string-array>
+</resources>

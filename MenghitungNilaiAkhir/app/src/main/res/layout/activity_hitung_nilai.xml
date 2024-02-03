@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HitungNilai">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Nama"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editTextAbsen" />
+
+    <EditText
+        android:id="@+id/editTextAbsen"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="NAbsensi"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNama"
+        app:layout_constraintBottom_toTopOf="@+id/editTextQuis" />
+
+    <EditText
+        android:id="@+id/editTextQuis"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="NQuis"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAbsen"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTugas" />
+
+    <EditText
+        android:id="@+id/editTextTugas"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="NTugas"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQuis"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUTS" />
+
+    <EditText
+        android:id="@+id/editTextUTS"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="NUTS"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTugas"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUAS" />
+
+    <EditText
+        android:id="@+id/editTextUAS"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="NUAS"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUTS"
+        app:layout_constraintBottom_toTopOf="@+id/buttonHapus" />
+
+    <Button
+        android:id="@+id/buttonHapus"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:text="HAPUS"
+        app:layout_constraintBottom_toTopOf="@+id/buttonHitung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUAS" />
+
+    <Button
+        android:id="@+id/buttonHitung"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:text="HITUNG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHapus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
